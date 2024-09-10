@@ -17,7 +17,7 @@
         $arraylongitd = count($produtos);
         //Imprimir todos los valores
         for ($x = 0; $x < count($produtos); $x++){
-            for ($y = 0; $y < count($produtos[$x]) ; $y++){
+            for ($y = 0; $y <3 ; $y++){
                 echo $produtos[$x][$y];
                 echo "<br>";
             }
@@ -28,7 +28,7 @@
         echo "<br>";  
         //Imprimir solo los productos con (precios <= 1000000)
         for ($x = 0; $x < count($produtos); $x++){
-            for ($y = 0; $y <3 ; $y++){
+            for ($y = 0; $y < count($produtos[$x]) ; $y++){
                 if ($produtos[$x][1] <= 1000000){
                     echo $produtos[$x][$y];
                     echo "<br>";    
