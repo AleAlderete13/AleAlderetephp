@@ -1,0 +1,30 @@
+body{
+    background-color: rgba(0, 225, 255, 0.489);
+    font-family: sans-serif;
+}
+.container{
+    margin: auto;
+    width: 90%;
+    margin-top: 10px;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt;
+}
+input, button{
+    padding: 5px;
+}
+.img_producto{
+    height:200px ;
+    width: 200px;
+    transition: 300ms;
+}
+.img_producto:hover{
+    transform: scale(1.1);
+}

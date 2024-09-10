@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tienda Online</title>
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+     <form method="post" action="">
+        <fieldset>
+            <legend>DATOS PERSONALES</legend>
+
+            <input type="text" placeholder="Tu Nombre" name="nombre" required autofocus/>
+            <input type="text" placeholder="Tu Apellido" name="apellido" required autofocus/>
+            <label>Fecha de Nacimiento</label>
+            <input type="date"/><label>
+            <input type="number" placeholder="Tu Edad"></p>
+
+            <input type="email" placeholder="Tu Email">
+            <input type="phone" placeholder="Telefono">
+            <input type="radio" name="sexo" value="H"/><label>Hombre</label>
+            <input type="radio" name="sexo" value="M"/><label>Mujer</label>
+
+            <label>Ciudad de residencia</label>
+            <select name="Ciudad">
+            <option>Asunción</option>
+            <option>San Lorenzo</option>
+            <option>Fernando de la Mora</option>
+            </select>
+            </fieldset>
+        <fieldset>
+            <legend>DATOS LABORALES</legend>
+            <label>Disponibilidad de tiempo</label>
+            <input type="checkbox" value="true" name="dispo_m"/>Mañana
+            <input type="checkbox" value="true" name="dispo_t"/>Tarde
+            <input type="checkbox" value="true" name="dispo_n"/>Noche
+            <p><label>Aspiración salarial</label>
+            Gs. 2.500.000<input type="range" min="2500000" max="5500000" step="100000"/> Gs. 5.000.000
+        </fieldset>
+        <br>
+        <button type="submit">Enviar</button>
+     </form>   
+    </body>
+</html>
