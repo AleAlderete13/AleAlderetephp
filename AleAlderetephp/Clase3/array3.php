@@ -17,7 +17,7 @@
         $arraylongitd = count($produtos);
         //Imprimir todos los valores
         for ($x = 0; $x < count($produtos); $x++){
-            for ($y = 0; $y <3 ; $y++){
+            for ($y = 0; $y < count($produtos[$x]) ; $y++){
                 echo $produtos[$x][$y];
                 echo "<br>";
             }
